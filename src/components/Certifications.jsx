@@ -15,7 +15,7 @@ const Certifications = () => {
         {/* Main Certifications Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {/* Cyber Security Management */}
-          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow" data-aos="fade-up">
+          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
             <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
               <span className="text-3xl font-bold text-blue-900">CYBER</span>
             </div>
@@ -24,7 +24,7 @@ const Certifications = () => {
           </div>
 
           {/* Risk Management */}
-          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="100">
+          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
             <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
               <span className="text-3xl font-bold text-blue-900">RISK</span>
             </div>
@@ -33,7 +33,7 @@ const Certifications = () => {
           </div>
 
           {/* Compliance Management */}
-          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="200">
+          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
             <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
               <span className="text-3xl font-bold text-blue-900">COMPLIANCE</span>
             </div>
@@ -42,7 +42,7 @@ const Certifications = () => {
           </div>
 
           {/* Supplier Audits */}
-          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="300">
+          <div className="text-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
             <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
               <span className="text-3xl font-bold text-blue-900">AUDIT</span>
             </div>

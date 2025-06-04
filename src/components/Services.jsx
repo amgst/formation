@@ -10,7 +10,6 @@ const Services = () => {
           <p className="text-gray-600">Comprehensive solutions tailored to your needs</p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Consulting Services Card */}
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:transform hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up">
             <div className="mb-6">
               <svg className="w-12 h-12 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -21,10 +20,8 @@ const Services = () => {
             <p className="text-gray-600 mb-6">
               7Formations' team help identifying your organization's objectives, baseline current state and desired future state requirements to list down possible Process Improvement Road Map and an engagement model tailored to meet your needs. Our workshops and consulting sessions leverage our accumulated knowledge and skills, applying them to streamline your organization's processes, advise tools, develop implementation strategy, change management and infrastructure with real-time agility. We map ISO standards & CMMI model's requirements to your processes and pave the way for Integrated Management System to sustain efficiently.
             </p>
-            <a href="#" className="text-blue-900 font-semibold hover:text-blue-700 transition-colors">Learn More →</a>
+            <a href="#" className="text-blue-900 font-semibold hover:text-blue-700">Learn More →</a>
           </div>
-
-          {/* Training Programs Card */}
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:transform hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
             <div className="mb-6">
               <svg className="w-12 h-12 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,7 +32,7 @@ const Services = () => {
             <p className="text-gray-600 mb-6">
               There is often a high degree of compatibility between the management system standards, although they cover different areas. Many organizations choose to build their management system into one integrated system, covering areas such as quality, health and safety, and the environment. By integrating several standards into one management system, you can eliminate duplication of work.
             </p>
-            <a href="#" className="text-blue-900 font-semibold hover:text-blue-700 transition-colors">Learn More →</a>
+            <a href="#" className="text-blue-900 font-semibold hover:text-blue-700">Learn More →</a>
           </div>
         </div>
       </div>

@@ -8,7 +8,6 @@ const Team = () => {
       name: "Masroor A. Sajid",
       position: "Founder & Managing Partner",
       location: "Cybersecurity Consulting - NYC Metro",
-      image: "/img/masroor.jpg",
       delay: 200
     },
     {
@@ -16,7 +15,6 @@ const Team = () => {
       name: "Syed Danyal Ahmad",
       position: "Trainee - Process Auditing",
       location: "Centreville, VA",
-      image: "/img/danyal.jpg",
       delay: 0
     },
     {
@@ -24,7 +22,6 @@ const Team = () => {
       name: "Pascale PIAZZA",
       position: "Administrative Assistant",
       location: "Colomiers, France",
-      image: "/img/pascale.jpg",
       delay: 100
     }
   ];
@@ -45,14 +42,10 @@ const Team = () => {
               data-aos-delay={member.delay}
             >
               <div className="mb-4">
-                <img 
-                  src={member.image} 
-                  alt={member.name} 
+                <img
+                  src={`https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=96&background=1e40af&color=ffffff`}
+                  alt={member.name}
                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-4 border-gray-100"
-                  onError={(e) => {
-                    // Fallback to placeholder if image fails to load
-                    e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&size=96&background=1e40af&color=ffffff`;
-                  }}
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">{member.name}</h3>

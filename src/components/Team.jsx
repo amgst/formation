@@ -8,7 +8,7 @@ const Team = () => {
       name: "Masroor A. Sajid",
       position: "Founder & Managing Partner",
       location: "Cybersecurity Consulting - NYC Metro",
-      image: "/img/masroor.jpg",
+      image: "/img/masroor.png",
       delay: 200
     },
     {
@@ -16,7 +16,7 @@ const Team = () => {
       name: "Syed Danyal Ahmad",
       position: "Trainee - Process Auditing",
       location: "Centreville, VA",
-      image: "/img/danyal.jpg",
+      image: "/img/danyal.png",
       delay: 0
     },
     {
@@ -24,7 +24,7 @@ const Team = () => {
       name: "Pascale PIAZZA",
       position: "Administrative Assistant",
       location: "Colomiers, France",
-      image: "/img/pascale.jpg",
+      image: "/img/pascale.png",
       delay: 100
     }
   ];

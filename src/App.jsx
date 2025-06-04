@@ -16,26 +16,36 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import Contact from './pages/Contact';
 
 const App = () => {
   useEffect(() => {
-    AOS.init({ 
-      duration: 1000, 
+    AOS.init({
+      duration: 1000,
       once: true,
       easing: 'ease-out'
     });
   }, []);
 
+  const path = window.location.pathname;
+
+  if (path.startsWith('/contact')) {
+    return <Contact />;
+  }
+
   return (
     <div className="min-h-screen">
       {/* Notification Banner */}
       <div className="bg-blue-900 text-white px-4 py-3 text-center text-sm">
-        🎉 New Training Programs Available - <a href="#training" className="underline hover:text-blue-200">Learn More</a>
+        🎉 New Training Programs Available -{' '}
+        <a href="#training" className="underline hover:text-blue-200">
+          Learn More
+        </a>
       </div>
 
       {/* Header */}
       <Header />
-      
+
       {/* Main Content */}
       <main>
         <HeroSection />
@@ -50,7 +60,7 @@ const App = () => {
         <FAQ />
         <ContactForm />
       </main>
-      
+
       {/* Footer */}
       <Footer />
     </div>

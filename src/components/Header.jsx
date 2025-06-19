@@ -23,26 +23,26 @@ const Header = () => {
               
               {/* Consulting Dropdown */}
               <div className="relative group">
-                <button className="text-gray-600 hover:text-blue-900 focus:outline-none">Consulting</button>
+                <a href="/consulting-services/" className="text-gray-600 hover:text-blue-900 focus:outline-none">Consulting</a>
                 <div className="absolute left-0 mt-2 w-72 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-50">
-                  <a href="/consulting-services/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Enterprise Content Management</a>
-                  <a href="/iso-27001/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Information Security Management (ISO 27001)</a>
-                  <a href="/lean-six-sigma/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Lean Six Sigma</a>
-                  <a href="/iso-9001/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Quality Management System (ISO 9001)</a>
-                  <a href="/ims/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Integrated Management System (ISO 27001, 9001, 20000)</a>
-                  <a href="/as-9100/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Aerospace Quality Management Systems (AS 9100)</a>
+                  <a href="/consulting-services/enterprise-content-management" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Enterprise Content Management</a>
+                  <a href="/consulting-services/information-security-management-systems" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Information Security Management (ISO 27001)</a>
+                  <a href="/consulting-services/lean-six-sigma" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Lean Six Sigma</a>
+                  <a href="/consulting-services/quality-management-iso-9000-family" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Quality Management System (ISO 9001)</a>
+                  <a href="/consulting-services/integrated-management-system" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Integrated Management System (ISO 27001, 9001, 20000)</a>
+                  <a href="/aerospace-quality-mgmt-systems-as-9100" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Aerospace Quality Management Systems (AS 9100)</a>
                 </div>
               </div>
               
               {/* Training Dropdown */}
               <div className="relative group">
-                <button className="text-gray-600 hover:text-blue-900 focus:outline-none">Training</button>
+                <a href="/training/" className="text-gray-600 hover:text-blue-900 focus:outline-none">Training</a>
                 <div className="absolute left-0 mt-2 w-64 bg-white border rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-50">
-                  <a href="/training/cmmi/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">CMMI Models</a>
-                  <a href="/training/iso/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">ISO Standards</a>
-                  <a href="/training/lean-six-sigma/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Lean Six Sigma</a>
-                  <a href="/training/ims/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Integrated Management System</a>
-                  <a href="/training/evm/" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Earned Value Management (EVM)</a>
+                  <a href="/training/cmmi-models" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">CMMI Models</a>
+                  <a href="/training/iso-standards" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">ISO Standards</a>
+                  <a href="/training/lean-six-sigma" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Lean Six Sigma</a>
+                  <a href="/training/integrated-management-system" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Integrated Management System</a>
+                  <a href="/training/earned-value-management-evm" className="block px-4 py-2 hover:bg-gray-100 text-gray-700">Earned Value Management (EVM)</a>
                 </div>
               </div>
               
@@ -69,19 +69,21 @@ const Header = () => {
                   <a href="/" className="block text-gray-700 hover:bg-gray-100 px-2 py-1">Home</a>
                   
                   <p className="font-semibold text-gray-800 mt-2">Consulting</p>
-                  <a href="/consulting-services/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Enterprise Content Management</a>
-                  <a href="/iso-27001/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Information Security (ISO 27001)</a>
-                  <a href="/lean-six-sigma/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Lean Six Sigma</a>
-                  <a href="/iso-9001/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">ISO 9001</a>
-                  <a href="/ims/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Integrated Mgmt System</a>
-                  <a href="/as-9100/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">AS 9100</a>
+                  <a href="/consulting-services/" className="block text-gray-700 hover:bg-gray-100 px-2 py-1">Overview</a>
+                  <a href="/consulting-services/enterprise-content-management" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Enterprise Content Management</a>
+                  <a href="/consulting-services/information-security-management-systems" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Information Security (ISO 27001)</a>
+                  <a href="/consulting-services/lean-six-sigma" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Lean Six Sigma</a>
+                  <a href="/consulting-services/quality-management-iso-9000-family" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">ISO 9001</a>
+                  <a href="/consulting-services/integrated-management-system" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Integrated Mgmt System</a>
+                  <a href="/aerospace-quality-mgmt-systems-as-9100" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">AS 9100</a>
                   
                   <p className="font-semibold text-gray-800 mt-2">Training</p>
-                  <a href="/training/cmmi/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">CMMI Models</a>
-                  <a href="/training/iso/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">ISO Standards</a>
-                  <a href="/training/lean-six-sigma/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Lean Six Sigma</a>
-                  <a href="/training/ims/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Integrated Mgmt System</a>
-                  <a href="/training/evm/" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">EVM</a>
+                  <a href="/training/" className="block text-gray-700 hover:bg-gray-100 px-2 py-1">Overview</a>
+                  <a href="/training/cmmi-models" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">CMMI Models</a>
+                  <a href="/training/iso-standards" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">ISO Standards</a>
+                  <a href="/training/lean-six-sigma" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Lean Six Sigma</a>
+                  <a href="/training/integrated-management-system" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">Integrated Mgmt System</a>
+                  <a href="/training/earned-value-management-evm" className="block text-gray-600 hover:bg-gray-100 px-4 py-1">EVM</a>
                   
                   <a href="/blog/" className="block text-gray-700 hover:bg-gray-100 px-2 py-1">Blog</a>
                   <a href="/about-us/" className="block text-gray-700 hover:bg-gray-100 px-2 py-1">About</a>

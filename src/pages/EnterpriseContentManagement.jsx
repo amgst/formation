@@ -1,8 +1,8 @@
 import React from 'react'
 import GenericPage from './GenericPage'
 
-const ConsultingServices = () => (
+const EnterpriseContentManagement = () => (
   <GenericPage title="Enterprise Content Management" />
 )
 
-export default ConsultingServices
+export default EnterpriseContentManagement

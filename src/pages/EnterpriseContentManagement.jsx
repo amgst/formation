@@ -2,6 +2,7 @@ import React from 'react'
 import GenericPage from './GenericPage'
 
 const EnterpriseContentManagement = () => (
+
   <GenericPage title="Enterprise Content Management">
     <p className="mb-4">
       We help organization through technology to establish processes for
@@ -105,6 +106,7 @@ const EnterpriseContentManagement = () => (
     <p className="mb-6">Metrics (what constitutes on schedule vs late?)</p>
     <p>For more details contact us at info@7formations.com</p>
   </GenericPage>
+
 )
 
 export default EnterpriseContentManagement

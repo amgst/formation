@@ -107,8 +107,6 @@ const EnterpriseContentManagement = () => (
     <p>For more details contact us at info@7formations.com</p>
   </GenericPage>
 
-  <GenericPage title="Enterprise Content Management" />
-
 )
 
 export default EnterpriseContentManagement

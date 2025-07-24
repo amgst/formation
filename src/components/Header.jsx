@@ -7,15 +7,22 @@ const Header = () => {
   return (
     <>
       {/* Notification Banner */}
-      <div className="bg-blue-900 text-white px-4 py-3 text-center text-sm">
-        🎉 New Training Programs Available - <a href="#" className="underline hover:text-blue-200">Learn More</a>
+      <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-purple-900 text-white px-6 py-4 text-center text-sm relative overflow-hidden">
+        <div className="absolute inset-0 opacity-30">
+          <div className="w-full h-full bg-gradient-to-r from-blue-800/20 to-purple-800/20"></div>
+        </div>
+        <div className="relative z-10">
+          🎉 New Training Programs Available - <a href="#" className="underline hover:text-blue-200 font-semibold">Learn More</a>
+        </div>
       </div>
 
       {/* Header with Full Navigation and Dropdowns */}
-      <header className="bg-white shadow-sm fixed w-full top-0 z-50" style={{ top: '44px' }}>
-        <div className="container mx-auto px-4">
-          <nav className="flex items-center justify-between h-16">
-            <div className="text-2xl font-bold text-blue-900">7FORMATIONS</div>
+      <header className="bg-white/95 backdrop-blur-md shadow-lg fixed w-full top-0 z-50 border-b border-white/20" style={{ top: '44px' }}>
+        <div className="container mx-auto px-6">
+          <nav className="flex items-center justify-between h-18">
+            <div className="text-2xl font-bold bg-gradient-to-r from-blue-900 to-purple-900 bg-clip-text text-transparent">
+              7FORMATIONS
+            </div>
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8 items-center">
@@ -49,7 +56,7 @@ const Header = () => {
               <a href="/blog/" className="text-gray-600 hover:text-blue-900">Blog</a>
               <a href="/about-us/" className="text-gray-600 hover:text-blue-900">About</a>
               <a href="/contact/" className="text-gray-600 hover:text-blue-900">Contact</a>
-              <a href="/contact" className="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800">Get Started</a>
+              <a href="/contact" className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg">Get Started</a>
             </div>
             
             {/* Mobile Menu Button */}

@@ -62,15 +62,7 @@ const App = () => {
   if (path.startsWith('/training/earned-value-management-evm') || path.startsWith('/training/evm')) return <TrainingEVM />;
 
   return (
-    <div className="min-h-screen">
-      {/* Notification Banner */}
-      <div className="bg-blue-900 text-white px-4 py-3 text-center text-sm">
-        🎉 New Training Programs Available -{' '}
-        <a href="#training" className="underline hover:text-blue-200">
-          Learn More
-        </a>
-      </div>
-
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50/30">
       {/* Header */}
       <Header />
 

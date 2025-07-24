@@ -38,7 +38,8 @@ const ContactForm = () => {
         email: '',
         message: ''
       });
-    } catch (error) {
+    } catch (err) {
+      console.error('Form submission error:', err);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -55,7 +56,7 @@ const ContactForm = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="firstName" className="block text-gray-700 mb-2 font-medium">
@@ -160,7 +161,7 @@ const ContactForm = () => {
                 </div>
               </div>
             )}
-          </div>
+          </form>
 
           {/* Contact Information */}
           <div className="mt-16 grid md:grid-cols-3 gap-8 text-center">
